@@ -1,3 +1,10 @@
+const daysElement = document.getElementById("days")
+const hoursElement = document.getElementById('hours')
+const minutesElement = document.getElementById('minutes')
+const secondsElement = document.getElementById('seconds')
+
+
+console.log(daysElement, hoursElement, minutesElement, secondsElement)
 const christmasDay = '25 Dec 2020'
 
 const countdown = () => {
@@ -11,11 +18,14 @@ const countdown = () => {
     const minutes = Math.floor(totalSeconds / 60) % 60
     const seconds = Math.floor(totalSeconds % 60)
 
+    daysElement.innerHTML = days;
+    hoursElement.innerHTML = hours;
+    minutesElement.innerHTML = minutes;
+    secondsElement.innerHTML = seconds;
 
     console.log(days, hours, minutes, seconds)
 }
-    countdown()
 
-// setInterval(() => {
-//     countdown()
-// }, 1000);
+setInterval(() => {
+    countdown()
+}, 1000);

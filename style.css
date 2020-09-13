@@ -15,7 +15,7 @@ body {
 header {
     text-align: center;
     font-size: 4rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 
@@ -23,16 +23,16 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 1rem;
+    margin: 5rem;
 }
 
 .time-container span {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 
 .big-text {
-    font-size: 7rem;
+    font-size: 4rem;
     line-height: 1;
     margin: 0 4rem
 }
