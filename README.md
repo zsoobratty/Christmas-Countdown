@@ -1,6 +1,6 @@
 # Christmas Countdown!
 
-### Vanilla JavaScript Christmas countdown, using HTML, CSS & JS.  
+### Vanilla JavaScript Christmas countdown running in second intervals, using HTML, CSS & JS.  
 <br>
 
 ### This is how it looks: 
