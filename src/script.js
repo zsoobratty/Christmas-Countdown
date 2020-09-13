@@ -22,8 +22,6 @@ const countdown = () => {
     hoursElement.innerHTML = hours;
     minutesElement.innerHTML = minutes;
     secondsElement.innerHTML = seconds;
-
-    console.log(days, hours, minutes, seconds)
 }
 
 setInterval(() => {
